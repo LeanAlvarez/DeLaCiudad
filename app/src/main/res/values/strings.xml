@@ -2,4 +2,29 @@
     <string name="app_name">DeLaCiudad</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="colon">Colón, Entre Ríos, sin dudas una de las ciudades costeras de río más hermosas de nuestro país, con un total de 10 km de playa. Con una gran capacidad de alojamientos
+        de primer nivel, un circuito gastronómico diverso que ofrece los más variados platos gourmet o
+        tradicionales, un centro comercial atento a los requerimientos de los turistas, servicios de recreaciones náuticas y terrestres,
+        un enorme patrimonio histórico cultural para conocer, un renovado complejo termal que cuenta con sectores de juegos acuáticos, hidromasajes,
+        piletas pasivas en un imponente balcón natural que asoma al majestuoso Río Uruguay, muy cerca del Parque Nacional El Palmar,
+        gracias a la Autovía Nacional 14, y la globalización en la comunicación permiten la promoción de sus atractivos, logrando la llegada de cada vez más visitantes
+        a la localidad para conocer y disfrutar de sus cualidades.</string>
+
+
+    <string name="que_es">La Ciudad</string>
+
+    <string name="termas">Las Termas</string>
+
+    <string name="termas_texto">El complejo cuenta con un amplio parque y espacios verdes con árboles nativos que albergan numerosas especies de aves.
+        Este lugar conforma un importante recurso natural que vincula al visitante con la naturaleza, haciéndolo parte de ella, teniendo en cuenta la
+        cultura ambientalista del lugar.</string>
+
+
+    <string name="playas">Las Playas</string>
+
+    <string name="playas_texto">La Ciudad de Colón cuenta con cinco playas que suman aproximadamente unos 7 km. de suaves arenales,
+        conformando una de las playas más extensas de la Provincia de Entre Ríos. A la vera del río Uruguay, estas playas se ubican
+        todas a escasas cuadras del casco céntrico. También es el lugar elegido durante el invierno, donde el sol deposita su calor tenue
+        sobre un paisaje de pálidos ocres. En esta época, despojada del alboroto veraniego,
+        aflora una ribera solitaria pero no menos atractiva ya que en el ambiente se disipa el murmullo del eterno fluir de las aguas.</string>
 </resources>

@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="altologo">45dp</dimen>
+    <dimen name="toolbarAlto">30dp</dimen>
+    <dimen name="cardCorner">4dp</dimen>
+    <dimen name="altoIV">150dp</dimen>
+    <dimen name="tamanioTitulo">20sp</dimen>
+    <dimen name="maginSubtitulo">10dp</dimen>
+    <dimen name="tamanioSubtitulo">15dp</dimen>
+
+    <dimen name="itemAgendaTitulo">30sp</dimen>
+    <dimen name="itemAgendaSubTitulo">20sp</dimen>
+    <dimen name="itemNombreEvento">20sp</dimen>
+
+</resources>

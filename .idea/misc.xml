@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/leana/AndroidStudioProjects/DeLaCiudad/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/leana/AndroidStudioProjects/DeLaCiudad/app/src/main/res/layout/activity_splash_screen.xml" value="0.33" />
         <entry key="..\:/Users/leana/AndroidStudioProjects/DeLaCiudad/app/src/main/res/layout/fragment_agenda.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/leana/AndroidStudioProjects/DeLaCiudad/app/src/main/res/layout/fragment_agenda_detail_dialog.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/leana/AndroidStudioProjects/DeLaCiudad/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/leana/AndroidStudioProjects/DeLaCiudad/app/src/main/res/layout/fragment_mapa.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/leana/AndroidStudioProjects/DeLaCiudad/app/src/main/res/layout/item_agenda.xml" value="0.33" />
       </map>
     </option>
   </component>

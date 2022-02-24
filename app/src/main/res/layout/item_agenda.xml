@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvItemAgendaHora"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="00:00"
+                android:gravity="right|bottom"
+                android:textSize="@dimen/itemAgendaTitulo"
+                android:textColor="@color/acentuado"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvItemAgendaAMPM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="AM"
+                android:gravity="right|top"
+                android:textSize="@dimen/itemAgendaSubTitulo"
+                android:textColor="@color/texto"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/tvItemAgendaNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre del Evento"
+                android:textSize="@dimen/itemNombreEvento"
+                android:textColor="@color/texto_secundario"
+                android:ellipsize="end"
+                android:lines="1"/>
+
+
+            <TextView
+                android:id="@+id/tvItemAgendaLugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lugar del envento"
+                android:textSize="15sp"
+                android:textColor="@color/texto_secundario"
+                android:ellipsize="end"
+                android:lines="1"/>
+
+
+            <TextView
+                android:id="@+id/tvItemAgendaTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tag"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
