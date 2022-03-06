@@ -9,6 +9,10 @@
     <color name="texto_secundario">#757575</color>
     <color name="division">#BDBDBD</color>
 
+    <color name="colorPrimary">#253b47</color>
+    <color name="colorPrimaryDark">#1E303A</color>
+    <color name="colorAccent">#93ca3d</color>
+
 
     <color name="purple_500">#9C27B0</color>
     <color name="purple_200">#CE93D8</color>

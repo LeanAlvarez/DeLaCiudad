@@ -44,8 +44,8 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/acentuado"
-                    android:alpha="0.4"/>
+                    android:alpha="0.4"
+                    android:background="@color/acentuado" />
 
                 <TextView
                     android:id="@+id/tvItemAgendaNombre"

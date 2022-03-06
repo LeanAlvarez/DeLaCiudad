@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHomeFragment"
+        android:title="Inicio"
+        android:icon="@drawable/ic_alquiler"
+        />
+
+    <item
+        android:id="@+id/navServiciosFragment"
+        android:title="Servicios"
+        android:icon="@drawable/ic_services"
+        />
+
+    <item
+        android:id="@+id/navMapaFragment"
+        android:title="Mapa"
+        android:icon="@drawable/ic_mapa"
+        />
+
+    <item
+        android:id="@+id/navAgendaFragment"
+        android:title="Agenda Cultural"
+        android:icon="@drawable/ic_agenda"
+        />
+
+
+
+</menu>

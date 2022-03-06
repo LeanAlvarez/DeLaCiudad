@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.softmirai.delaciudad.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_serviciosFragment"
+            app:destination="@id/navServiciosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navMapaFragment"
+        android:name="com.softmirai.delaciudad.ui.fragments.MapaFragment"
+        android:label="MapaFragment"
+        tools:layout="@layout/fragment_mapa">
+        <action
+            android:id="@+id/action_mapaFragment_to_agendaFragment"
+            app:destination="@id/navAgendaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navServiciosFragment"
+        android:name="com.softmirai.delaciudad.ui.fragments.ServiciosFragment"
+        android:label="ServiciosFragment"
+        tools:layout="@layout/fragment_servicios">
+        <action
+            android:id="@+id/action_serviciosFragment_to_mapaFragment"
+            app:destination="@id/navMapaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navAgendaFragment"
+        android:name="com.softmirai.delaciudad.ui.fragments.AgendaFragment"
+        android:label="fragment_agenda"
+        tools:layout="@layout/fragment_agenda" />
+</navigation>
